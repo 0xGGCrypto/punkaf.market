@@ -34,6 +34,67 @@ const Robe = ({ robe }: { robe: RobeInfo }) => {
 const IndexPage = ({ robes, lastUpdate }: Props) => {
   return (
     <div className="py-3 md:pb-0 font-mono flex flex-col justify-center items-center gap-4 pt-10 md:w-screen">
+        <p className="md:text-lg pt-2">
+          {' '}
+          <a
+            target="_self"
+            href="https://rare.punkaf.market/"
+            className="underline"
+          >
+            Rare AF 
+          </a>
+          
+          | | 
+          
+          <a
+            target="_self"
+            href="https://1337.punkaf.market/"
+            className="underline"
+          >
+            +1 Elite Gear 
+          </a>
+          
+          | | 
+          
+          <a
+            target="_self"
+            href="https://hoodies.punkaf.market/"
+            className="underline"
+          >
+            Hoodie Gang 
+          </a>
+          
+          | | 
+          
+          <a
+            target="_self"
+            href="https://holo.punkaf.market/"
+            className="underline"
+          >
+            Holo Hands 
+          </a>
+          
+          | | 
+
+          <a
+            target="_self"
+            href="https://katanas.punkaf.market/"
+            className="underline"
+          >
+            Katanas 
+          </a>
+          
+          | | 
+          
+          <a
+            target="_self"
+            href="https://ar.punkaf.market/"
+            className="underline"
+          >
+            Assault Rifles 
+          </a>
+
+      </p>
       <h1 className="text-lg md:text-3xl">Designer Hoodie Gang</h1>
       <div className="text-center max-w-screen-md md:leading-loose">
         <p className="md:text-xl">
